@@ -33,7 +33,7 @@ header {
   z-index: 1;
 }
 .btns{
-  position: absolute;
+  position: fixed;
   right: -15px;
   bottom: 0;
   z-index: 2;
