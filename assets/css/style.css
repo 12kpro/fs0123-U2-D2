@@ -47,7 +47,7 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   border: 2px solid #fff;
-  margin-block: 10px;
+  margin-block-end: 15px;
   box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.4);
   line-height: 1;
   backdrop-filter: blur(10px)
@@ -214,14 +214,7 @@ h1 + p {
 @media screen and (min-width: 700px) {
   h1 {
     font-size: 3.6rem;
-  }
-  .btns{
-    top: 0;
-  }  
-  .btn:nth-child(3) {
-    position: absolute;
-    bottom: 0;
-  }  
+  } 
 }
 
 @media screen and (min-width: 1200px) {
@@ -420,6 +413,17 @@ footer a {
     margin-right: auto;
   }
 }
+/* button bar*/
+@media screen and (min-width: 700px) {
+  .btns{
+    top: 15px;
+  }  
+  .btn:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+  }  
+}
+
 
 @media print {
   body {
